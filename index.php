@@ -2,13 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Menu</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+        <?php include 'include/header.php'; ?>
+
     </head>
 
     <body>
@@ -38,17 +39,17 @@
         </form>
 
     <!-- Modal projet 1 -->
-       <div class="modal fade" id="expliModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-           <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-               <div class="modal-content">
+        <div class="modal fade" id="expliModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
                     <div class="modal-header">
-                       <h5 class="modal-title" id="exampleModalLabel">Règles du jeu</h5>
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                               <span aria-hidden="true">&times;</span>
-                           </button>
+                        <h5 class="modal-title" id="exampleModalLabel">Règles du jeu</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                     </div>
                     <div class="modal-body">
-                       <form id="contact-form_login" class="" action="controller/signIn.php" method="post" role="form">
+                       <form id="contact-form_login" action="" method="post" role="form">
                            <div class="">
                               Ce jeu est un escape game ; il consiste à s'évader d'un bunker en ayant tout les objets de la pièce où l'on est,
                               pour ensuite aller dans la pièce d'à côté (6 pièces en tout), avec des points d'action en mangeant de la nourriture.
@@ -56,16 +57,10 @@
                            </div>
                        </form>
                     </div>
-               </div>
-           </div>
-       </div>
+                </div>
+            </div>
+        </div>
 
-
-       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
-       <script type="text/javascript" src="../js/anim.js">
-
-       </script>
+         <?php include 'includes/footer.php'; ?>
     </body>
-
-
 </html>
