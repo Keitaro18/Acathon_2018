@@ -1,13 +1,7 @@
-body{
-    background-image: url("../img/ascenceur.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+img{
+    position: absolute;
+    height: 1082px;
 }
-#tel{
-    margin-left: 1750px;
-    margin-top: 750px;
-}
-#hp{
-    margin-left: 345px;
-    margin-top: 205px;
+#image{
+    padding-left: 250px;
 }
