@@ -17,7 +17,9 @@
         <embed src="msc/FreeSwitzerland.mp3" width="0" height="0" autostart="true" loop="True" align="left">
 
         <div class="text-center">
-            <input type="button" id="boutonjouer" name="" value="Jouer">
+            <form method='post' action='salle_un.php'>
+                <input type="submit" id="boutonjouer" name="" value="Jouer">
+            </form>
         </div>
 
 
@@ -30,7 +32,9 @@
                         <a href="#expliModal" data-toggle="modal">
                             <div class="tailleimg zoom">
                                 <div class="text-center">
-                                    <input type="button" id="bouton_aide" name="" value="Règles du jeu">
+
+                                    <input type="button" id="bouton_aide" value="Règles du jeu">
+
                                 </div>
                             </div>
                     </div></a>

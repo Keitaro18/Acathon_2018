@@ -1,11 +1,12 @@
-img{
+/* img{
     position: absolute;
     height: 1082px;
 }
 
 #image{
     padding-left: 250px;
-    
+}
+
 #tel{
     position: relative;
     margin-left: 1750px;
@@ -15,7 +16,7 @@ img{
 #tel a::before
 {
     content: '';
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     top: 0;
@@ -26,4 +27,4 @@ img{
 #hp{
     margin-left: 345px;
     margin-top: 205px;
-}
+} */
