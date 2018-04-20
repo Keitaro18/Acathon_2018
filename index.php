@@ -61,7 +61,8 @@
        </div>
 
 
-       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js">
+       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+       <script type="text/javascript" src="js/anim.js">
 
        </script>
     </body>
