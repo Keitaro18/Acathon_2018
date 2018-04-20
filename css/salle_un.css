@@ -4,9 +4,22 @@ body{
     background-size: cover;
 }
 #tel{
+    position: relative;
     margin-left: 1750px;
     margin-top: 750px;
 }
+
+#tel a::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 #hp{
     margin-left: 345px;
     margin-top: 205px;

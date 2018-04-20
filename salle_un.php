@@ -9,15 +9,15 @@
     </head>
     <body>
         <div id="tel">
-         <img src="img/objets/telephone-ascensseur.png" >
+        <a href="#"> <img src="img/objets/telephone-ascensseur.png" > </a>
         </div>
 
         <div id="hp">
-         <img src="img/objets/haut_parleur.png">
-        </div>
+            <a href="#"><img src="img/objets/haut_parleur.png"></a>
+            </div>
 
         <div id="hache">
-         <img src="img/objets/hache_.png">
+         <a href="#"><img src="img/objets/hache_.png"></a>
         </div>
 
 
