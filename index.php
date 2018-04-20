@@ -37,18 +37,18 @@
                     </div></a>
                </div>
             </div>
-         </form>
+        </form>
 
     <!-- Modal projet 1 -->
        <div class="modal fade" id="expliModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-           <div class="modal-dialog modal-dialog-centered modal-lg pong" role="document">
+           <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                <div class="modal-content">
-                   <div class="modal-header">
+                    <div class="modal-header">
                        <h5 class="modal-title" id="exampleModalLabel">Règles du jeu</h5>
                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                <span aria-hidden="true">&times;</span>
                            </button>
-                   </div>
+                    </div>
                     <div class="modal-body">
                        <form id="contact-form_login" class="" action="controller/signIn.php" method="post" role="form">
                            <div class="">
