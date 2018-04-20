@@ -1,7 +1,8 @@
 body{
     background-image: url("../img/img_menu.jpg");
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+
 }
 
 
@@ -11,4 +12,24 @@ body{
 
 #bouton_aide{
     margin-top: 10px;
+}
+
+/* modal  */
+.modal-header{
+    background-color: rgba(60, 149, 55, 0.4);
+    border-radius: 60px 0px 60px 0px / 70px 5px 70px 0px;
+}
+#expliModal{
+    background-color: rgba(1, 1, 1, 0.75);
+
+}
+#exampleModalLabel{
+    /* background-color: rgba(195, 0, 0, 0.75);
+    border-radius: 60px 0px 60px 0px / 70px 5px 70px 0px; */
+}
+
+.modal-body{
+    /* background-color: rgba(36, 36, 36, 1); */
+    /* border-radius: 60px 0px 60px 0px / 70px 5px 70px 0px; */
+    color:black;
 }
