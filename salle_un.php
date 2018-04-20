@@ -9,6 +9,16 @@
         <title>Salle 1</title>
     </head>
     <body>
+     <div id="tel">
+         <img src="img/objets/telephone-ascensseur.png" alt="">
+     </div>
 
+     <div id="hp">
+         <img src="img/objets/haut_parleur.png" alt="">
+     </div>
+
+     <div id="hache">
+         <img src="img/objets/hache_.png" alt="">
+     </div>
     </body>
 </html>
